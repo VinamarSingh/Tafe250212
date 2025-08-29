@@ -1,0 +1,22 @@
+<Grid>
+	<StackPanel>
+	<StackPanel Background="LightGray">
+		<TextBlock x:Name="universalCalculator" Text="Universal Calculator: choose your calculator" FontWeight="Bold" FontSize="50" Margin="40"/>
+  <StackPanel Background="DarkGray">
+			<Button Name="MathsCalculatorButton" Content="Maths Calculator" Click="MathsCalculatorButton_Click" Margin="25" Background="LightYellow" BorderBrush="Blue" BorderThickness="2" Foreground="Black" FontWeight="Bold" FontSize="30" />
+		<!-- TODO: Click="openMathsCalculatorButton_Click"; should open what is currently the MainPage.xaml - rename it MathsCalculator.xaml -->
+			<Button Name="MortgageCalculatorButton" Content="Mortgage Calculator" Margin="25" Background="LightYellow" BorderBrush="Blue" BorderThickness="2" Foreground="Black" FontWeight="Bold" FontSize="30" />
+		<!-- TODO: Click="openMortgageCalculatorButton_Click"; should open to be created MortgageCalculator.xaml -->
+			<Button Name="CurrencyCalculatorButton" Content="Currency Calculator" Margin="25" Background="LightYellow" BorderBrush="Blue" BorderThickness="2" Foreground="Black" FontWeight="Bold" FontSize="30" />
+			<!-- TODO: Click="openCurrencyCalculatorButton_Click"; should open to be created CurrencyCalculator.xaml -->
+			<Button Name="TripCalculatorButton" Content="Trip Calculator" Margin="25" Background="LightYellow" BorderBrush="Blue" BorderThickness="2" Foreground="Black" FontWeight="Bold" FontSize="30" />
+			<!-- TODO: Click="openTripCalculatorButton_Click"; should open to be created TripCalculator.xaml -->
+			<Button Name="Exit" Content="Exit" Margin="25" Background="LightYellow" BorderBrush="Blue" BorderThickness="2" Foreground="Black" FontWeight="Bold" FontSize="30" />
+		<!-- TODO: Click="exitButton_Click"; should close the app -->
+    <Image Source="Images/abacus.jpg" Width="217" Height="196"/>
+	</StackPanel>
+		
+	</StackPanel>		
+</StackPanel>c
+
+</Grid>
